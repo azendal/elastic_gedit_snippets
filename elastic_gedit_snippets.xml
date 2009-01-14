@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="html">
+  <snippet>
+    <text><![CDATA[<div class="auto-columns$1">
+	$0
+</div>]]></text>
+    <tag>eauto</tag>
+    <description>Elastic auto columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="column$1">
+	$0
+</div>]]></text>
+    <tag>ecol</tag>
+    <description>Elastic column</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="container$1" style="$2">
+	$0
+</div>]]></text>
+    <tag>ec</tag>
+    <description>Elastic container</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="elastic-column$1">
+	$0
+</div>]]></text>
+    <tag>eec</tag>
+    <description>Elastic elastic column</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="fixed-left-column$1" style="$2">
+	$0
+</div>]]></text>
+    <tag>eflc</tag>
+    <description>Elastic fixed left column</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="fixed-right-column$1" style="$2">
+	$0
+</div>]]></text>
+    <tag>efrc</tag>
+    <description>Elastic fixed right column</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="unit four-columns$1">
+	$0
+</div>]]></text>
+    <tag>efour</tag>
+    <description>Elastic four columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>$0</title>
+		<link rel="stylesheet" type="text/css" media="all" href="/elastic/reset.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/elastic/base.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/elastic/fonts.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/elastic/class.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/elastic/grid.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/stylesheets/skin.css" />
+		<script src="/elastic/helpers_jquery/jquery.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+		<script src="/elastic/helpers_jquery/helpers.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="unit layout">
+			<div class="unit header">
+				
+			</div>
+			<div class="unit body">
+				
+			</div>
+			<div class="unit footer">
+				
+			</div>
+		</div>
+	</body>
+</html>]]></text>
+    <tag>e</tag>
+    <description>Elastic start</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="unit three-columns$1">
+	$0
+</div>]]></text>
+    <tag>ethree</tag>
+    <description>Elastic three columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="unit two-columns$1">
+	$0
+</div>]]></text>
+    <tag>etwo</tag>
+    <description>Elastic two-columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="unit$1">
+	$0
+</div>]]></text>
+    <tag>eunit</tag>
+    <description>Elastic unit</description>
+  </snippet>
+</snippets>
