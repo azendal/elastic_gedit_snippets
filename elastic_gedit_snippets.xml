@@ -1,105 +1,70 @@
 <?xml version='1.0' encoding='utf-8'?>
 <snippets language="html">
   <snippet>
-    <text><![CDATA[<div class="auto-columns$1">
-	$0
-</div>]]></text>
-    <tag>eauto</tag>
-    <description>Elastic auto columns</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="column$1">
-	$0
-</div>]]></text>
-    <tag>ecol</tag>
-    <description>Elastic column</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="container$1" style="$2">
-	$0
-</div>]]></text>
-    <tag>ec</tag>
-    <description>Elastic container</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="elastic-column$1">
-	$0
-</div>]]></text>
-    <tag>eec</tag>
-    <description>Elastic elastic column</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="fixed-left-column$1" style="$2">
-	$0
-</div>]]></text>
-    <tag>eflc</tag>
-    <description>Elastic fixed left column</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="fixed-right-column$1" style="$2">
-	$0
-</div>]]></text>
-    <tag>efrc</tag>
-    <description>Elastic fixed right column</description>
-  </snippet>
-  <snippet>
-    <text><![CDATA[<div class="unit four-columns$1">
-	$0
-</div>]]></text>
-    <tag>efour</tag>
-    <description>Elastic four columns</description>
-  </snippet>
-  <snippet>
     <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
-		<title>$0</title>
-		<link rel="stylesheet" type="text/css" media="all" href="/elastic/reset.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="/elastic/base.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="/elastic/fonts.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="/elastic/class.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="/elastic/grid.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="/stylesheets/skin.css" />
-		<script src="/elastic/helpers_jquery/jquery.js" type="text/javascript" language="javascript" charset="utf-8"></script>
-		<script src="/elastic/helpers_jquery/helpers.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>$1</title>
+		<link rel="stylesheet" href="$2/elastic.css" type="text/css" media="screen" charset="utf-8" />
+		<script src="$3/jquery.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+		<script src="$2/elastic.js" type="text/javascript" language="javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		<div class="unit layout">
-			<div class="unit header">
-				
-			</div>
-			<div class="unit body">
-				
-			</div>
-			<div class="unit footer">
-				
-			</div>
-		</div>
+		$0
 	</body>
 </html>]]></text>
-    <tag>e</tag>
-    <description>Elastic start</description>
+    <tag>elastic</tag>
+    <description>Elastic</description>
   </snippet>
   <snippet>
-    <text><![CDATA[<div class="unit three-columns$1">
-	$0
-</div>]]></text>
-    <tag>ethree</tag>
-    <description>Elastic three columns</description>
+    <text><![CDATA[<div class="${1:modifiers }column${2: modifiers}">
+	$3
+</div>$0]]></text>
+    <tag>ecol</tag>
+    <description>Elastic -- column</description>
   </snippet>
   <snippet>
-    <text><![CDATA[<div class="unit two-columns$1">
-	$0
-</div>]]></text>
-    <tag>etwo</tag>
-    <description>Elastic two-columns</description>
+    <text><![CDATA[<div class="elastic column${1: modifiers}">
+	$2
+</div>$0]]></text>
+    <tag>eecol</tag>
+    <description>Elastic -- column elastic</description>
   </snippet>
   <snippet>
-    <text><![CDATA[<div class="unit$1">
-	$0
-</div>]]></text>
+    <text><![CDATA[<div class="fixed column${1: modifiers}"${2: style}>
+	$3
+</div>$0]]></text>
+    <tag>efcol</tag>
+    <description>Elastic -- column fixed</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="${1:modifiers }columns${2: modifiers}">
+	$3
+</div>$0]]></text>
+    <tag>ecols</tag>
+    <description>Elastic -- columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="container${1: modifiers}"${2: style}>
+	$3
+</div>$0]]></text>
+    <tag>econ</tag>
+    <description>Elastic -- container</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="on-$1 columns${2: modifiers}">
+	$3
+</div>$0]]></text>
+    <tag>eon</tag>
+    <description>Elastic -- on-# columns</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div class="unit${1: modifiers}">
+	$2
+</div>$0]]></text>
     <tag>eunit</tag>
-    <description>Elastic unit</description>
+    <description>Elastic -- unit</description>
   </snippet>
 </snippets>
